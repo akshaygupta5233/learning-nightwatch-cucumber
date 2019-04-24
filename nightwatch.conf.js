@@ -1,7 +1,6 @@
 const seleniumServer = require('selenium-server');
 const chromedriver = require('chromedriver');
 const geckodriver = require('geckodriver');
-var reporter = require('cucumber-html-reporter');
 
 module.exports = {
   

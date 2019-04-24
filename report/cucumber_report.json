@@ -1,0 +1,78 @@
+[
+  {
+    "description": "  Testing Login from Login Screen",
+    "keyword": "Feature",
+    "name": "Login_check",
+    "line": 1,
+    "id": "login_check",
+    "tags": [],
+    "uri": "test/feature-files/login/login.feature",
+    "elements": [
+      {
+        "id": "login_check;2.-verify-if-user-is-able-to-login-to-the-website.",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "2. Verify if user is able to login to the Website.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "user ends the old session and creates a new one",
+            "match": {
+              "location": "test/step-definitions/login/login.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "User is providing valid URL 1",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "User is providing valid ABC and xyx",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User clicks the login button and home page is displayed",
+            "match": {
+              "location": "test/step-definitions/login/login.js:52"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "close the browser",
+            "match": {
+              "location": "test/step-definitions/login/login.js:59"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
